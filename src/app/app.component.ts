@@ -5,7 +5,7 @@ import { IconComponent } from '@components/icon/icon.component';
 @Component({
     selector: 'hb-root',
     standalone: true,
-    imports: [CommonModule, IconComponent],
+    imports: [CommonModule],
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.sass'],
     changeDetection: ChangeDetectionStrategy.OnPush,
